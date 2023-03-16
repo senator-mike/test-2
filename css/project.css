@@ -14,11 +14,21 @@ body {
     align-items: center;
 }
 
-.head div {
+.head> div {
     background-color: brown;
     height: 150px;
     width: 150px;
     color: brown;
     border: 1px solid yellow;
-    al
+
+}
+
+.bond {
+    display: block;
+    background-color: chartreuse;
+
+}
+.bond > div {
+    background-color: rgb(97, 18, 224);
+    border: 1px solid coral;
 }
